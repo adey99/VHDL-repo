@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Feb 07 10:20:10 2019
+# Process ID: 6200
+# Log file: C:/Users/subir/Desktop/VHDL Projects/Mux/vivado.log
+# Journal file: C:/Users/subir/Desktop/VHDL Projects/Mux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/subir/Desktop/VHDL Projects/Mux/Mux.xpr}
+update_compile_order -fileset sources_1
+set_property top Mux.vhd [current_fileset]
+update_compile_order -fileset sources_1
+set_property top Mux.vhd [current_fileset]
+launch_runs synth_1

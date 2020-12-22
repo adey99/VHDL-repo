@@ -1,0 +1,1 @@
+-wto "b7ba54b3338749689b634208b68453cc" --debug "typical" --relax -L "xil_defaultlib" -L "secureip" --snapshot "ripple_carry_behav" "xil_defaultlib.ripple_carry" -log "elaborate.log" 

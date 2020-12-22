@@ -1,0 +1,7 @@
+Running: xsim.dir/carry_save_adder_behav/xsimk.exe -simmode gui -wdb carry_save_adder_behav.wdb -simrunnum 0 -socket 49632
+Design successfully loaded
+Design Loading Memory Usage: 16388 KB (Peak: 16388 KB)
+Design Loading CPU Usage: 265 ms
+Simulation completed
+Simulation Memory Usage: 16648 KB (Peak: 16648 KB)
+Simulation CPU Usage: 296 ms

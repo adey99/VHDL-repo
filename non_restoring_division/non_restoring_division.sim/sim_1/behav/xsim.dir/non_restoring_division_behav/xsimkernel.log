@@ -1,0 +1,7 @@
+Running: xsim.dir/non_restoring_division_behav/xsimk.exe -simmode gui -wdb non_restoring_division_behav.wdb -simrunnum 0 -socket 60300
+Design successfully loaded
+Design Loading Memory Usage: 16752 KB (Peak: 16752 KB)
+Design Loading CPU Usage: 343 ms
+Simulation completed
+Simulation Memory Usage: 16964 KB (Peak: 16964 KB)
+Simulation CPU Usage: 358 ms

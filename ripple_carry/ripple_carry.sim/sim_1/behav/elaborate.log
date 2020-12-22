@@ -1,0 +1,14 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2014.4/bin/unwrapped/win32.o/xelab.exe -wto b7ba54b3338749689b634208b68453cc --debug typical --relax -L xil_defaultlib -L secureip --snapshot ripple_carry_behav xil_defaultlib.ripple_carry -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.ripple_carry
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot ripple_carry_behav

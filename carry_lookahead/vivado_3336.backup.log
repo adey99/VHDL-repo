@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Feb 18 19:24:55 2019
+# Process ID: 1492
+# Log file: C:/Users/subir/Desktop/VHDL Projects/carry_lookahead/vivado.log
+# Journal file: C:/Users/subir/Desktop/VHDL Projects/carry_lookahead\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/subir/Desktop/VHDL Projects/carry_lookahead/carry_lookahead.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 725.973 ; gain = 77.641
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 18 19:28:41 2019...

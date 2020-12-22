@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="half_full_adder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="half_full_adder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject db_ref_id="1" fp_name="/half_full_adder/a" type="logic">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/half_full_adder/b" type="logic">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/half_full_adder/carry" type="logic">
+      <obj_property name="ElementShortName">carry</obj_property>
+      <obj_property name="ObjectShortName">carry</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/half_full_adder/S_half" type="logic">
+      <obj_property name="ElementShortName">S_half</obj_property>
+      <obj_property name="ObjectShortName">S_half</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/half_full_adder/C_half" type="logic">
+      <obj_property name="ElementShortName">C_half</obj_property>
+      <obj_property name="ObjectShortName">C_half</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/half_full_adder/S_full" type="logic">
+      <obj_property name="ElementShortName">S_full</obj_property>
+      <obj_property name="ObjectShortName">S_full</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/half_full_adder/C_full" type="logic">
+      <obj_property name="ElementShortName">C_full</obj_property>
+      <obj_property name="ObjectShortName">C_full</obj_property>
+   </wvobject>
+</wave_config>

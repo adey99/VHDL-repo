@@ -1,0 +1,1 @@
+-wto "d831eb2102804e8d8170b2ab63fe91dc" --debug "typical" --relax -L "xil_defaultlib" -L "secureip" --snapshot "carry_save_adder_behav" "xil_defaultlib.carry_save_adder" -log "elaborate.log" 

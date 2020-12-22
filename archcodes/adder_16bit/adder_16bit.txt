@@ -1,0 +1,59 @@
+ 
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity adder_16_bit is
+    Port ( a : in STD_LOGIC_VECTOR (15 downto 0);
+           b : in STD_LOGIC_VECTOR (15 downto 0);
+           cin : in STD_LOGIC;
+           result : out STD_LOGIC_VECTOR (15 downto 0);
+           cout : out STD_LOGIC);
+end adder_16_bit;
+
+architecture Behavioral of adder_16_bit is
+signal c:STD_LOGIC_VECTOR (16 downto 0);
+signal P : STD_LOGIC_VECTOR(15 downto 8);
+signal G : STD_LOGIC_VECTOR(15 downto 8);
+
+begin
+process (a,b,cin,c,P,G)
+variable i:integer;
+begin
+c(0) <= cin ;
+for i in 0 to 3 loop
+result(i) <= a(i) xor b(i) xor c(i);
+c(i+1) <= (a(i) and (b(i) )) or ((b(i) ) and c(i)) or (a(i) and c(i));
+ 
+  end loop;
+  c(5) <= c(4);
+for i in 4 to 7 loop
+  result(i) <= a(i) xor b(i)  xor c(i);
+  c(i+1) <= (a(i) and (b(i) )) or ((b(i) ) and c(i)) or (a(i) and c(i)); 
+    end loop;
+
+  c(9) <= c(8);
+ for i in 8 to 11 loop
+  result(i) <= a(i) xor b(i) xor c(i);
+  P(i) <= a(i) xor b(i);
+  G(i) <= a(i) and b(i);
+  c(i+1) <= (G(i) or (P(i) and c(i)));
+  end loop;
+  c(13) <= c(12);
+ for i in 12 to 15 loop
+   result(i) <= a(i) xor b(i) xor c(i);
+   P(i) <= a(i) xor b(i);
+   G(i) <= a(i) and b(i);
+   c(i+1) <= (G(i) or (P(i) and c(i)));
+   end loop;
+   cout <= c(16); 
+end process;
+end Behavioral;

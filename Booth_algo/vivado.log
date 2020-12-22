@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue Apr 02 08:40:10 2019
+# Process ID: 7860
+# Log file: H:/VHDL Projects/Booth_algo/vivado.log
+# Journal file: H:/VHDL Projects/Booth_algo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:/VHDL Projects/Booth_algo/Booth_algo.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/subir/Desktop/VHDL Projects/Booth_algo' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 710.258 ; gain = 65.965
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 02 08:43:41 2019...

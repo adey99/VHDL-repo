@@ -1,0 +1,37 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity carry_lookahead is
+    Port ( A : in STD_LOGIC_VECTOR (7 downto 0);
+           B : in STD_LOGIC_VECTOR (7 downto 0);
+           C_in : in STD_LOGIC;
+           Sum : out STD_LOGIC_VECTOR (7 downto 0);
+           C_out: out STD_LOGIC);
+end carry_lookahead;
+
+architecture Behavioral of carry_lookahead is
+signal P,G: STD_LOGIC_VECTOR (7 downto 0);
+signal C_int: STD_LOGIC_VECTOR(8 downto 0);
+begin
+    process(A,B,C_in,P,G,C_int) is
+    variable i:Integer;
+    begin
+        C_int(0)<=C_in;
+        for i in 0 to 7 loop
+            Sum(i)<=A(i) xor B(i) xor C_int(i);
+            P(i)<= A(i) xor B(i);
+            G(i)<= A(i) and B(i);
+            C_int(i+1)<= G(i) or (P(i) and C_int(i));
+        end loop;
+        C_out<= C_int(8);
+     end process;
+end Behavioral;

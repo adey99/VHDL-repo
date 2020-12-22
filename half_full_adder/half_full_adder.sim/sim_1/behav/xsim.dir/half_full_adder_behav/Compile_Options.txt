@@ -1,0 +1,1 @@
+-wto "3851abbdd98c44659c08366e30d7213a" --debug "typical" --relax -L "xil_defaultlib" -L "secureip" --snapshot "half_full_adder_behav" "xil_defaultlib.half_full_adder" -log "elaborate.log" 

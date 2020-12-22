@@ -1,0 +1,51 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 02/03/2019 10:57:11 PM
+-- Design Name: 
+-- Module Name: half_full_adder - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity half_full_adder is
+    Port ( a : in STD_LOGIC;
+           b : in STD_LOGIC;
+           carry : in STD_LOGIC;
+           S_half : out STD_LOGIC;
+           C_half : out STD_LOGIC;
+           S_full : out STD_LOGIC;
+           C_full : out STD_LOGIC);
+end half_full_adder;
+
+architecture Behavioral of half_full_adder is
+
+begin
+S_half<= a xor b;
+C_half<= a and b;
+S_full<=a xor b xor carry;
+C_full<= (a and b) or (b and carry) or (carry and a);
+end Behavioral;

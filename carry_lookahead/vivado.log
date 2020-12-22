@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat Mar 02 08:14:18 2019
+# Process ID: 3336
+# Log file: H:/VHDL Projects/carry_lookahead/vivado.log
+# Journal file: H:/VHDL Projects/carry_lookahead\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:/VHDL Projects/carry_lookahead/carry_lookahead.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/subir/Desktop/VHDL Projects/carry_lookahead' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 726.566 ; gain = 70.629
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 02 08:18:15 2019...

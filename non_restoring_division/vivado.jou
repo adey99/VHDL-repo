@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat Apr 13 07:30:03 2019
+# Process ID: 5776
+# Log file: H:/VHDL Projects/non_restoring_division/vivado.log
+# Journal file: H:/VHDL Projects/non_restoring_division\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:/VHDL Projects/non_restoring_division/non_restoring_division.xpr}

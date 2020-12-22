@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Feb 07 10:35:49 2019
+# Process ID: 5260
+# Log file: C:/Users/subir/Desktop/VHDL Projects/Mux/Mux.runs/impl_1/Mux.vdi
+# Journal file: C:/Users/subir/Desktop/VHDL Projects/Mux/Mux.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Mux.tcl -notrace

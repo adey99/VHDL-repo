@@ -1,0 +1,451 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Title    (or_gates)
+  /Author   (subir)
+  /Producer (Concept Engineering GmbH)
+  /Creator  (Nlview 6.4.10  2014-10-02 bk=1.3207 VDI=35 GEI=35)
+  /CreationDate (D:20190203225103)
+>>
+endobj
+2 0 obj
+<<
+  /Type     /Catalog
+  /Pages    3 0 R
+  /Outlines 7 0 R
+  /PageMode /UseThumbs
+  /ViewerPreferences << /DisplayDocTitle true >>
+>>
+endobj
+4 0 obj
+<<
+  /Type     /Font
+  /Subtype  /Type1
+  /Name     /F1
+  /BaseFont /Helvetica
+  /Encoding /MacRomanEncoding
+>>
+endobj
+5 0 obj
+<<
+  /ExtGState  << /GS 6 0 R >>
+  /Font       << /F1 4 0 R >>
+  /ColorSpace << /PCS [/Pattern /DeviceRGB] >>
+  /Pattern    8 0 R
+>>
+endobj
+6 0 obj
+<<
+  /Type /ExtGState
+  /LC   0
+  /LJ   0
+  /ML   4.0
+>>
+endobj
+%
+% Nlview page 1
+% (user space scaling 2.64)
+%
+9 0 obj
+<<
+  /Type      /Page
+  /Parent    3 0 R
+  /Resources 5 0 R
+  /Contents  10 0 R
+  /MediaBox  [0 0 612 792]
+  /Rotate    0
+>>
+endobj
+10 0 obj
+<<
+  /Length 1811
+>>
+stream
+1 0 0 1 0 261.6 cm
+1 0 0 1 28.8 28.8 cm
+2.64 0 0 -2.64 0 0 cm
+1 0 0 1 0 -80 cm
+0 0 210 80 re
+W n
+/GS gs
+1 0 0 1 10 0 cm
+q
+1.000 1.000 1.000 rg
+-10 0 210 81 re
+f
+Q
+1 w
+0.000 0.000 0.000 RG
+40 30 m
+33 37 l
+19 37 l
+19 23 l
+33 23 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 15 30 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-6.672 -4.308 Td
+(a) Tj
+ET
+Q
+q
+1.000 1.000 0.800 rg
+80 25 m
+82 27 l
+84 30 l
+85 32 l
+86 35 l
+87 38 l
+87 42 l
+86 45 l
+85 48 l
+84 50 l
+82 53 l
+80 55 l
+80 55 l
+95 55 l
+95 55 l
+98 55 l
+101 54 l
+104 53 l
+106 52 l
+109 51 l
+112 49 l
+114 47 l
+116 45 l
+118 43 l
+120 40 l
+120 40 l
+118 37 l
+116 35 l
+114 33 l
+112 31 l
+109 29 l
+106 28 l
+104 27 l
+101 26 l
+98 25 l
+95 25 l
+95 25 l
+h f
+Q
+80 55 m
+80.8791 54.2632 81.6918 53.4506 82.4286 52.5714 c
+89.3716 44.2872 88.2843 31.943 80 25 c
+S
+80 55 m
+95 55 l
+S
+120 40 m
+114.492 48.6558 105.23 54.2131 95 55 c
+S
+95 25 m
+105.23 25.7869 114.492 31.3442 120 40 c
+S
+95 25 m
+80 25 l
+S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 82 24 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 2.484 Td
+(c_i) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+1 0 0 1 82 56 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -8.616 Td
+(RTL_OR) Tj
+ET
+Q
+130 40 m
+120 40 l
+S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 121 39 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(O) Tj
+ET
+Q
+70 30 m
+84 30 l
+S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 79 29 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-8.34 2.07 Td
+(I0) Tj
+ET
+Q
+70 50 m
+84 50 l
+S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 79 49 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-8.34 2.07 Td
+(I1) Tj
+ET
+Q
+40 50 m
+33 57 l
+19 57 l
+19 43 l
+33 43 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 15 50 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-6.672 -4.308 Td
+(b) Tj
+ET
+Q
+150 40 m
+150 33 l
+164 33 l
+171 40 l
+164 47 l
+150 47 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 175 40 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(c) Tj
+ET
+Q
+0.098 0.706 0.000 RG
+40 30 m
+70 30 l
+S
+40 50 m
+70 50 l
+S
+130 40 m
+150 40 l
+S
+endstream
+endobj
+3 0 obj
+<<
+  /Type    /Pages
+  /Kids
+  [
+  9 0 R
+  ]
+  /Count   1
+  /ProcSet [/PDF /Text]
+>>
+endobj
+13 0 obj
+<<
+  /Title  (c_i RTL_OR)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 240 319 398 472]
+  /Parent 12 0 R
+>>
+endobj
+12 0 obj
+<<
+  /Title  (instances)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  13 0 R
+  /Last   13 0 R
+  /Count  1
+  /Next   14 0 R
+>>
+endobj
+15 0 obj
+<<
+  /Title  (a input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 78 401 163 443]
+  /Parent 14 0 R
+  /Next   16 0 R
+>>
+endobj
+16 0 obj
+<<
+  /Title  (b input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 78 348 163 390]
+  /Parent 14 0 R
+  /Prev   15 0 R
+  /Next   17 0 R
+>>
+endobj
+17 0 obj
+<<
+  /Title  (c output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 448 374 533 417]
+  /Parent 14 0 R
+  /Prev   16 0 R
+>>
+endobj
+14 0 obj
+<<
+  /Title  (ports)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  15 0 R
+  /Last   17 0 R
+  /Count  3
+  /Prev   12 0 R
+  /Next   18 0 R
+>>
+endobj
+18 0 obj
+<<
+  /Title  (portBuses)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  0 0 R
+  /Last   0 0 R
+  /Count  0
+  /Prev   14 0 R
+  /Next   19 0 R
+>>
+endobj
+20 0 obj
+<<
+  /Title  (a)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 160 422 240 422]
+  /Parent 19 0 R
+  /Next   21 0 R
+>>
+endobj
+21 0 obj
+<<
+  /Title  (b)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 160 369 240 369]
+  /Parent 19 0 R
+  /Prev   20 0 R
+  /Next   22 0 R
+>>
+endobj
+22 0 obj
+<<
+  /Title  (c)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 398 396 451 396]
+  /Parent 19 0 R
+  /Prev   21 0 R
+>>
+endobj
+19 0 obj
+<<
+  /Title  (nets)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  20 0 R
+  /Last   22 0 R
+  /Count  3
+  /Prev   18 0 R
+  /Next   23 0 R
+>>
+endobj
+23 0 obj
+<<
+  /Title  (netBundles)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  0 0 R
+  /Last   0 0 R
+  /Count  0
+  /Prev   19 0 R
+>>
+endobj
+11 0 obj
+<<
+  /Title  (Nlview page 1)
+  /C      [0.4 0.0 0.0]
+  /Dest   [9 0 R /Fit]
+  /Parent 7 0 R
+  /First  12 0 R
+  /Last   23 0 R
+  /Count  5
+>>
+endobj
+8 0 obj
+<<
+>>
+endobj
+7 0 obj
+<<
+  /Type  /Outline
+  /First 11 0 R
+  /Last  11 0 R
+  /Count 1
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000009 00000 n 
+0000000211 00000 n 
+0000002761 00000 n 
+0000000361 00000 n 
+0000000488 00000 n 
+0000000636 00000 n 
+0000004859 00000 n 
+0000004838 00000 n 
+0000000756 00000 n 
+0000000896 00000 n 
+0000004681 00000 n 
+0000002987 00000 n 
+0000002861 00000 n 
+0000003583 00000 n 
+0000003147 00000 n 
+0000003286 00000 n 
+0000003442 00000 n 
+0000003756 00000 n 
+0000004350 00000 n 
+0000003931 00000 n 
+0000004065 00000 n 
+0000004216 00000 n 
+0000004522 00000 n 
+trailer
+<<
+  /Size 24
+  /Info 1 0 R
+  /Root 2 0 R
+>>
+startxref
+4941
+%%EOF
